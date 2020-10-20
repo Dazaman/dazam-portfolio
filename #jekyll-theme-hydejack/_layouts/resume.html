@@ -68,7 +68,11 @@ layout: base
           {% include pro/resume/work.html %}
         {% when 'volunteer' %}
           {% include pro/resume/volunteer.html %}
-        {% when 'education' %}
+        {% when 'projects' %}
+        {% include pro/resume/projects.html %}
+          {% when 'workshops' %}
+        {% include pro/resume/workshops.html %}
+          {% when 'education' %}
           {% include pro/resume/education.html %}
         {% when 'awards' %}
           {% include pro/resume/awards.html %}
@@ -93,6 +97,10 @@ layout: base
           {% include pro/resume/work.html %}
         {% when 'volunteer' %}
           {% include pro/resume/volunteer.html %}
+        {% when 'projects' %}
+          {% include pro/resume/projects.html %}
+        {% when 'workshops' %}
+          {% include pro/resume/workshops.html %}
         {% when 'education' %}
           {% include pro/resume/education.html %}
         {% when 'awards' %}
