@@ -3,14 +3,12 @@ layout: project
 title: 'BayesReef'
 caption: "BayesReef: A Bayesian inference framework for pyReef-Core using MCMC methods"
 description: >
-  Using the Free Version of Hydejack as a product page on GitHub Pages.
-date: 1 Jan 2016
+  BayesReef: A Bayesian inference framework for pyReef-Core using MCMC methods
+date: Sept 2017-2019
 image: /assets/img/projects/BayesReef.png
 links:
-  - title: hy-drawer
-    url: https://hydecorp.github.io/drawer/
-  - title: hy-push-state
-    url: https://hydecorp.github.io/push-state/
+  - title: BayesReef GitHub page
+    url: https://github.com/intelligentEarth/Bayesreef
 accent_color: '#4fb1ba'
 accent_image:
   background: 'linear-gradient(to bottom, #0a7b81 0%, #01636e 25%, #02505b 50%, #073a4a 75%, #082e39 100%)'
