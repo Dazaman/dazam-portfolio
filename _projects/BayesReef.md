@@ -4,7 +4,7 @@ title: 'BayesReef'
 caption: "BayesReef: A Bayesian inference framework for pyReef-Core using MCMC methods"
 description: >
   BayesReef: A Bayesian inference framework for pyReef-Core using MCMC methods
-date: Sept 2017-2019
+date: Sept 2017
 image: /assets/img/projects/BayesReef.png
 links:
   - title: BayesReef GitHub page
