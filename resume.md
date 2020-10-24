@@ -12,9 +12,9 @@ left_column:
   - references
 right_column:
   - education
+  - skills
   - publications
   - workshops
-  - skills
   - interests
   # - languages
 no_language_icons: false
