@@ -118,7 +118,7 @@ education:
     endDate: "2015-06-01"
     gpa: ""
     courses:
-awards:
+workshops:
   - title: "Probabilistic modelling of sedimentary basin evolution using Bayeslands"
     date: "2019-11-11"
     awarder: "Australian Exploration Geoscience Conference (AEGC)"
@@ -155,13 +155,18 @@ skills:
 languages:
   - language: "English"
     fluency: "Native speaker"
+  - language: "Urdu"
+    fluency: "Native speaker"
 interests:
-  - name: "Wildlife"
+  - name: "Football"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
+      - "Won at varsity and college levels"
+      - "Captained High School team"
+  - name: "Trekking/Hiking"
+    keywords:
+      - "Successfully completed expeditions to the summit at Machulu La (5100 meters), Karakoram Range & peak at Deosai Plains (4050 meters)"
 references:
-  - name: "Erlich Bachman"
+  - name: "Dr. Rohitash Chandra"
     reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      Email: rohitash.chandra@unsw.edu.au
+      Mobile: +61 413 071 839
