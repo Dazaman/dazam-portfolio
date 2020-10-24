@@ -20,7 +20,7 @@ sitemap: false
 # _BayesReef_: A Bayesian inference framework for _pyReef-Core_ using MCMC methods
 
 ## Overview
-![Flowchart of BayesReef process. A fusion of multiple sources of data is used to create prior probability distributions on free parameters. Following this, BayesReef is initiated with a vector of free parameters are drawn from the prior. The MCMC sampler uses a Metropolis-Hastings (M-H) algorithm as a basis to accept or reject proposed samples. The sampler terminates when all the allocated samples have been assessed.](/assets/img/projects/BayesReef-MCMC-flowchart.png)
+![Flowchart of BayesReef process. A fusion of multiple sources of data is used to create prior probability distributions on free parameters. Following this, BayesReef is initiated with a vector of free parameters are drawn from the prior. The MCMC sampler uses a Metropolis-Hastings (M-H) algorithm as a basis to accept or reject proposed samples. The sampler terminates when all the allocated samples have been assessed.](/assets/img/projects/MCMC-flowchart.png)
 
 
 _BayesReef_ is a framework for implementing Bayesian inference on the deterministic model, _pyReef-Core_. It simulates data from the _pyReef-Core_ stratigraphic forward model (SFM) to generate samples which are used to approximate the posterior distribution parameters using a Markov Chain Monte Carlo (MCMC) method. _BayesReef_ is used to quantify uncertainty in  _pyReef-Core_  predictions and estimate parameters in the form of a probability distribution.
@@ -118,20 +118,7 @@ Other scripts in the _BayesReef_ package include:
 
  * ***runModel.py*** simulates a iteration of _pyReef-Core_ without the Bayesian inference framework. 
 
-## Sample Output
-
-<div align="center">
-  <img width=400 src="https://github.com/pyReef-model/BayesReef/blob/master/Testing/time-based_likl/manuscript_results_t/results-constrained-t_25/2p-t-ay.png" title="Density histogram of the posterior distribution of the sub-diagonal parameter." </img> 
-  <img width=400 src="https://github.com/pyReef-model/BayesReef/blob/master/Testing/time-based_likl/manuscript_results_t/results-constrained-t_25/2p-t-malth.png" title="Density histogram of the posterior distribution of the Malthusian parameter." </img> 
-  <img width=400 src="https://github.com/pyReef-model/BayesReef/blob/master/Testing/time-based_likl/manuscript_results_t/results-constrained-t_25/evol_likl.png" title="Likelihood evolution of two-parameter experiment with 10,000 samples." </img> 
-  <img width=400 src="https://github.com/pyReef-model/BayesReef/blob/master/Testing/time-based_likl/manuscript_results_t/results-3d-glv_7/2p-3d-t.png" title="Bivariate posterior likelihood of the Malthusian parameter and sub-diagonal assemblage interaction matrix parameter." </img> 
-  <img width=400 src="https://github.com/pyReef-model/BayesReef/blob/master/Testing/time-based_likl/manuscript_results_t/results-constrained-t_25/initpred.png" title="Initial prediction of drill-core data." </img> 
-  <img width=400 src="https://github.com/pyReef-model/BayesReef/blob/master/Testing/time-based_likl/manuscript_results_t/results-constrained-t_25/proposals.png" title="All accepted proposals (i.e. predictions) of drill-core data" </img> 
-  <img width=400 src="https://github.com/pyReef-model/BayesReef/blob/master/Testing/time-based_likl/manuscript_results_t/results-constrained-t_25/2p-t-mcmcres.png" title="Mean prediction and uncertainty after 20,000 samples in MCMC sampler." </img> 
-</div>
-
 ## License
-
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
