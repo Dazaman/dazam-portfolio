@@ -17,7 +17,7 @@
         {% capture title %}<span class="bc">{{ awa.title }}</span>{% endcapture %}
         {% capture awarder %}<span class="bc">{{ awa.awarder }}</span>{% endcapture %}
         {{ strings.resume.workshops_title
-          | default:"<!--title--> from <!--awarder-->"
+          | default:"<!--title--> at <!--awarder-->"
           | replace:"<!--title-->", title
           | replace:"<!--awarder-->", awarder
         }}

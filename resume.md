@@ -14,9 +14,9 @@ right_column:
   - education
   - publications
   - workshops
-  - languages
   - skills
   - interests
+  # - languages
 no_language_icons: false
 no_skill_icons: false
 no_buttons: false
