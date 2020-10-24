@@ -151,9 +151,10 @@ skills:
   - name: "Statistics and ML"
     level: "Master"
     keywords:
-      - "Machine Learning Algorithms"
       - "Bayesian Inference"
       - "NLP"
+      - "Computer Vision"
+      - "Time series analysis"
   - name: "Database Management"
     level: "Intermediate"
     keywords:

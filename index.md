@@ -2,6 +2,7 @@
 layout: page
 title: Home
 sitemap: false
+cover: true
 ---
 
 Thank you for visiting my online portfolio! 🎉
