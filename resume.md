@@ -7,12 +7,12 @@ description: >
 hide_description: true
 left_column:
   - work
-  - volunteer
-  - education
+  - projects
   - awards
   - publications
   - references
 right_column:
+  - education
   - languages
   - skills
   - interests
