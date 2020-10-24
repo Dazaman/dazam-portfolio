@@ -18,8 +18,6 @@ sitemap: false
 # _BayesReef_: A Bayesian inference framework for _pyReef-Core_ using MCMC methods
 
 ## Overview
-![Flowchart of BayesReef process. A fusion of multiple sources of data is used to create prior probability distributions on free parameters. Following this, BayesReef is initiated with a vector of free parameters are drawn from the prior. The MCMC sampler uses a Metropolis-Hastings (M-H) algorithm as a basis to accept or reject proposed samples. The sampler terminates when all the allocated samples have been assessed.](/assets/img/projects/MCMC-flowchart.png)
-
 
 _BayesReef_ is a framework for implementing Bayesian inference on the deterministic model, _pyReef-Core_. It simulates data from the _pyReef-Core_ stratigraphic forward model (SFM) to generate samples which are used to approximate the posterior distribution parameters using a Markov Chain Monte Carlo (MCMC) method. _BayesReef_ is used to quantify uncertainty in  _pyReef-Core_  predictions and estimate parameters in the form of a probability distribution.
 
@@ -44,9 +42,12 @@ To visualise the Metropolis-Hastings MCMC technique, an animation of an example 
 
 _BayesReef_ estimates the posterior distribution of parameters by comparing different forms of data extracted from _pyReef-Core_ simulations. We have two methods of doing this.
 
-Data about the **depth structure** or the **time structure** of a core can be used as a basis of comparison. The **depth structure** refers to which coralgal assemblage occurs at a given depth interval. The **time structure** of a core refers to which assemblage (or sediment) is deposited at each time interval over the course of the simulation time. Both perspectives on a reef drill core are presented in the figure below.
+Data about the **depth structure** or the **time structure** of a core can be used as a basis of comparison. The **depth structure** refers to which coralgal assemblage occurs at a given depth interval. The **time structure** of a core refers to which assemblage (or sediment) is deposited at each time interval over the course of the simulation time. Both perspectives on a reef drill core are presented in the title figure below.
 
-![(A) _pyReef-Core_ model output, including the time- and depth-structure of a example drill core. (B) A schematic of modern coral zonation with depth on a forereef representing a shallowing-upward growth strategy, displaying associated assemblage compositions and transitions, adapted from Dechnik (2016)](/assets/img/projects/synthetic_core.png)
+<!-- ![(A) _pyReef-Core_ model output, including the time- and depth-structure of a example drill core. (B) A schematic of modern coral zonation with depth on a forereef representing a shallowing-upward growth strategy, displaying associated assemblage compositions and transitions, adapted from Dechnik (2016)](/assets/img/projects/synthetic_core.png) -->
+
+![Flowchart of BayesReef process. A fusion of multiple sources of data is used to create prior probability distributions on free parameters. Following this, BayesReef is initiated with a vector of free parameters are drawn from the prior. The MCMC sampler uses a Metropolis-Hastings (M-H) algorithm as a basis to accept or reject proposed samples. The sampler terminates when all the allocated samples have been assessed.](/assets/img/projects/MCMC-flowchart.png)
+
 
 ## Installation
 
@@ -77,7 +78,6 @@ Set the number of iterates in _main_ and initiate _BayesReef_ using the command:
 ```
 python multinom_mcmc_d.py
 ```
-
 
 ## Tailored usage
 

@@ -36,17 +36,17 @@ author:
   name:                <Danial> <Azam>
   email:               <dazam92@gmail.com>
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  picture:             /assets/img/pp.png
+  twitter:             <Dazam92>
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
   - title:             Projects
     url:               /projects/
   - title:             Résumé*
     url:               /resume/
-
+  # - title:             Blog
+  #   url:               /blog/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
