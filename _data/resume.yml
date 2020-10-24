@@ -3,7 +3,7 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Danial Azam"
-  label: "Data Scientist - Software Developer"
+  label: "Data Scientist | Software Developer"
   picture: "/assets/icons/icon.png"
   email: "dazam92@gmail.com"
   phone: "(+61) 405 546 662"
@@ -160,8 +160,8 @@ languages:
 interests:
   - name: "Football"
     keywords:
-      - "Won at varsity and college levels"
-      - "Captained High School team"
+      - "Won at varsity and college levels and Captained High School team"
+      - "Completed introductory football coaching course"
   - name: "Trekking/Hiking"
     keywords:
       - "Successfully completed expeditions to the summit at Machulu La (5100 meters), Karakoram Range & peak at Deosai Plains (4050 meters)"
