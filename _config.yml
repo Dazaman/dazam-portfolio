@@ -33,11 +33,11 @@ tagline:               Data Scientist | Software Engineer
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <Danial> <Azam>
+  name:                Danial Azam
   email:               <dazam92@gmail.com>
   # # Used by `jekyll-seo-tag`:
   picture:             "/assets/icons/pp.png"
-  twitter:             <Dazam92>
+  twitter:             Dazam92
 
 # Add links to the sidebar.
 menu:
@@ -45,8 +45,10 @@ menu:
     url:               /projects/
   - title:             Résumé*
     url:               /resume/
-  # - title:             Blog
-  #   url:               /blog/
+  - title:             Blog
+    url:               /blog/
+  - title:             Docs
+    url:               /docs/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
