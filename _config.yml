@@ -28,7 +28,7 @@ description:           >
   Hi my name is Danial Azam. This is my personal portfolio showcasing my work and projects!
 
 # A shorter description for the sidebar.
-tagline:               Hi! I'm Danial. Welcome to my personal portfolio!
+tagline:               Data Scientist | Software Engineer
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -36,7 +36,7 @@ author:
   name:                <Danial> <Azam>
   email:               <dazam92@gmail.com>
   # # Used by `jekyll-seo-tag`:
-  picture:             /assets/img/pp.png
+  picture:             "/assets/icons/pp.png"
   twitter:             <Dazam92>
 
 # Add links to the sidebar.
