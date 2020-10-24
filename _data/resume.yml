@@ -148,6 +148,12 @@ skills:
       - "C#"
       - "C++"
       - "R"
+  - name: "Statistics and ML"
+    level: "Master"
+    keywords:
+      - "Machine Learning Algorithms"
+      - "Bayesian Inference"
+      - "NLP"
   - name: "Database Management"
     level: "Intermediate"
     keywords:

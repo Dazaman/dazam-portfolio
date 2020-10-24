@@ -11,8 +11,8 @@ left_column:
   - awards
   - references
 right_column:
-  - education
   - skills
+  - education
   - publications
   - workshops
   - interests
